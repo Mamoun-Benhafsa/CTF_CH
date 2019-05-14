@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRACKERS CTF</title>
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.7.4-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
+    <style type="text/css">
+        html,
+        body {
+            font-family: 'Open Sans';
+        }
+
+        img {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <script>
+            // show the given page, hide the rest
+            function show(elementID) {
+                // try to find the requested page and alert if it's not found
+                var ele = document.getElementById(elementID);
+                if (!ele) {
+                    alert("no such element");
+                    return;
+                }
+
+                // get all pages, loop through them and hide them
+                var pages = document.getElementsByClassName('page');
+                for(var i = 0; i < pages.length; i++) {
+                    pages[i].style.display = 'none';
+                }
+
+                // then show the requested page
+                ele.style.display = 'block';
+            }
+        </script>
+        <script>
+            (function() {
+    var burger = document.querySelector('.burger');
+    var menu = document.querySelector('#'+burger.dataset.target);
+    burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+    });
+})();
+        </script>
+</head>
+
+<body>
+    <div id="Main">
+    <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-head" style="display:snone;">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#">
+                            <img src="#" alt="soon">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="img/crack-passwords.jpg" alt="Description">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title is-2">
+                            <span class="tag is-primary is-large"> CRACKERS CTF</span>
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            Cracker! This CTF IS For You You Are In The Right Place !
+                        </h2>
+                        <br>
+                        <p class="has-text-centered">
+                            <a class="button is-medium is-info is-outlined" onclick="show('Page1');" href="#Page1">
+                                Learn more
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <div id="Page1" style="display:none;">
+    <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-head" style="display:none;position:fixed; ">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5 ">
+                        <h1 class="title is-2">
+                            What We give You!
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            Captured Handhakes For Brute Force  
+                        </h2>
+                        <br>
+                    </div>
+                    <div class="column is-4 is-offset-1">
+                        <h1 class="title is-4">
+                            Hashes . Just Bruteforce!
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            Let you Crack Good !
+                        </h2>
+                        <br>
+                    </div>
+                        <p>
+                            <a class="button is-medium is-info is-outlined" onclick="show('Page2');" href="#Page2">
+                                Learn more
+                            </a>
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="Page2" style="display:none;">
+    <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="img/hack-wi-fi-cracking-wpa2-psk-passwords-using-aircrack-ng.jpg" alt="Description">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title is-2">
+                            wirless Handshakes 
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            Enjoy Like A White Hat Hacker !
+                        </h2>
+                        <br>
+                        <p class="has-text-centered">
+                            <a class="button is-medium is-info is-outlined" href="/cap_handshakes/cap_handshakes.zip">
+                                Download
+                            </a>
+                        </p>
+                        <p class="has-text-centered">
+                            <a class="button is-medium is-info is-outlined" href="#Main">
+                                Back Up 
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                    <ul>
+                        <li><a>Mamoun Benhafsa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+
+</html>
